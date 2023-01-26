@@ -6,5 +6,5 @@ Este proyecto es una página web sencilla que muestra el pronóstico del tiempo 
 
 - Desarrollado por Aizheen (Lautaro Loggia)
 
-- Utiliza la API de OpenWeather.
+- Utiliza la API de OpenWeatherMap.
 
