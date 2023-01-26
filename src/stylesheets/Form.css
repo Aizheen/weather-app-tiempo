@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-form{
+    padding: 30px 0;
+    background-color: #f8f8f8;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    box-shadow: rgba(34, 36, 37, 0.2) 0px 8px 24px;
+}
+
+.title-form{
+    padding-bottom: 10px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.title-icon{
+    height:40px ;
+    width: 40px;
+    padding-left: 10px;
+
+}
+.container-title{
+    display: flex;
+    text-align: center;
+    padding-left: 20px;
+}
+.description-form{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 15px;
+    padding: 10px 0;
+}
+.input-text{
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 0px 7px;
+    background: white;
+    border: 2px solid rgba(0, 0, 0, 0.63);
+    margin: 0 13px;
+    
+}
+
+.input-btn{
+    background-color: #222229;
+    color: white;
+    border: none;
+    width: 80px;
+    height: 43px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.input-btn:hover{
+    background-color: #3d3d42;
+}
+
+input::placeholder {
+    color: rgb(109, 106, 106);
+    font-size: 16px;
+}
+
+@media (min-width: 1050px) {
+    .container-form{
+        width: 40%;
+        flex-direction:initial;
+        margin: 0 0;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+    .title-form{
+        font-size: 50px;
+        position: relative;
+        right: 10px;
+
+    }
+
+    .title-icon{
+        height:60px ;
+        width: 60px;
+    }
+    .description-form{
+        font-size: 16px;
+        position: relative;
+        left: 6px;
+    }
+    .container-input-form{
+        position: relative;
+        right: 40px;
+    }
+}

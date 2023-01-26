@@ -1,0 +1,21 @@
+.container-main{
+    background-size: cover;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(180, 148, 148, 0.15); 
+    background-image: url(../assets/clouds.webp);
+}
+.container{
+    background-color: rgba(180, 148, 148, 0.15); 
+    backdrop-filter: blur(2px);
+    height: 100%;
+
+
+}
+
+@media (min-width: 1050px) {
+    .container{
+        display: flex;
+        
+    }
+}

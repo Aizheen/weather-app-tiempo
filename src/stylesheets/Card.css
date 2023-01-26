@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+
+.browse-city{
+    color: black;
+    font-family: 'Signika Negative', sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin: 150px auto;
+    background-color: white;
+    height: 150px;
+    width: 320px;
+    border-radius: 20px;
+    
+}
+.title-city{
+    font-size: 20px;
+}
+.card-icon{
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;   
+}
+.description{
+    text-transform: capitalize;
+}
+.container-card{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    
+}
+
+.card-1-container{
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.card-1{
+    background-color: #f8f8f8;
+    padding: 60px;
+    border-radius: 20px;
+    
+}
+.card-title{
+    font-family: 'Signika Negative', sans-serif;
+
+}
+.card-date{
+    font-family: 'Signika Negative', sans-serif;
+
+}
+.card-temp{
+    font-family: 'Signika Negative', sans-serif;
+    padding: 8px 0;
+
+}
+.desc-container{
+    display: flex;
+    flex-direction: column;
+}
+.desc-container img{
+    margin: 0 auto;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    filter: drop-shadow(rgba(0, 0, 0, 0.37) 0px 1px 4px);
+}
+.card-desc{
+    font-family: 'Signika Negative', sans-serif;
+    text-transform: capitalize;
+
+}
+.card-desc img{
+    height: 80px ;
+    width: 80px ;
+}
+.card-2{
+    background-color: #f8f8f8;
+    width: 230px;
+    height: 120px;
+    border-radius: 20px;
+    margin: 0 auto 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-family: 'Signika Negative', sans-serif;
+
+
+}
+
+
+.card-3-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card-3{
+    background-color:#f8f8f8;
+    width: 120px;
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 15px;
+}
+.icon-desc{
+    filter: drop-shadow(rgba(0, 0, 0, 0.493) 0px 1px 4px);
+
+}
+
+@media (min-width: 1050px) {
+    
+        .card-container{
+            width: 900px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            left: 90px;            
+        }
+        .card-1{
+            width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+        }
+        .card-1-desk{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .desc-container img{
+            width: 100px ;
+            height: 100px;
+        }
+        .card-title{
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .card-3-container{
+            justify-content:center;
+        }
+        .card-3{
+            margin: 0 20px;
+        }
+
+
+        .container-browse-city{
+              width: 50vw;
+              height: 100%;  
+              display: flex;
+              align-items: center;
+              justify-content: center;
+        }
+}
